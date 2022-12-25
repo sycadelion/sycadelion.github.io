@@ -100,6 +100,8 @@ body {
 
 .row {
     margin: 0;
+    padding-right: 6em;
+    padding-left: 6em;
 }
 
 .row::after {
@@ -145,7 +147,9 @@ a:hover {
 }
 
 .col-6 {
-    width: 50%;
+    width: 50%;    
+    padding-right: 3em;
+    padding-bottom: 3em;
 }
 
 .col-3 {
