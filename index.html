@@ -9,17 +9,22 @@
 </head>
 
 <body>
+    <header>
+        <h1><center>Syca's AI Generated Images</center></h1>
+        <p><center>still don't think its art</center></p>
+        <br>
+    </header>
 
     <div class="wrapper">
         <div class="row">
             <div class="col-6 left"><img src="images/landscapes/00000-1027569952-pagoda, neon,skyscrapers, storm, cyberpunk, flying cars, cables.png" > </div>
-            <div class="col-6 left"><img src="images/landscapes/00000-107854870-pagoda, dome,neon,streets,skyscrapers, rain, cyberpunk,antennas,cables, food_stands, spot_lights.png" ></div> 
+            <div class="col-6 right"><img src="images/landscapes/00000-107854870-pagoda, dome,neon,streets,skyscrapers, rain, cyberpunk,antennas,cables, food_stands, spot_lights.png" ></div> 
             <div class="col-6 left"><img src="images/landscapes/00000-3915988447-pyramid, dome,neon,streets,skyscrapers, rain, cyberpunk,antennas,cables, food_stands, spot_lights.png" > </div>
-            <div class="col-6 left"><img src="images/landscapes/00001-1027569953-pagoda, neon,skyscrapers, storm, cyberpunk, flying cars, cables.png" > </div>
+            <div class="col-6 right"><img src="images/landscapes/00001-1027569953-pagoda, neon,skyscrapers, storm, cyberpunk, flying cars, cables.png" > </div>
             <div class="col-6 left"><img src="images/landscapes/00001-107854871-pagoda, dome,neon,streets,skyscrapers, rain, cyberpunk,antennas,cables, food_stands, spot_lights.png" ></div> 
-            <div class="col-6 left"><img src="images/landscapes/00001-3915988448-pyramid, dome,neon,streets,skyscrapers, rain, cyberpunk,antennas,cables, food_stands, spot_lights.png" > </div>
+            <div class="col-6 right"><img src="images/landscapes/00001-3915988448-pyramid, dome,neon,streets,skyscrapers, rain, cyberpunk,antennas,cables, food_stands, spot_lights.png" > </div>
             <div class="col-6 left"><img src="images/landscapes/00002-1027569954-pagoda, neon,skyscrapers, storm, cyberpunk, flying cars, cables.png" > </div>
-            <div class="col-6 left"><img src="images/landscapes/00002-107854872-pagoda, dome,neon,streets,skyscrapers, rain, cyberpunk,antennas,cables, food_stands, spot_lights.png" ></div> 
+            <div class="col-6 right"><img src="images/landscapes/00002-107854872-pagoda, dome,neon,streets,skyscrapers, rain, cyberpunk,antennas,cables, food_stands, spot_lights.png" ></div> 
             <div class="col-6 left"><img src="images/landscapes/00002-3915988449-pyramid, dome,neon,streets,skyscrapers, rain, cyberpunk,antennas,cables, food_stands, spot_lights.png" > </div>
             <div class="col-6 left"><img src="images/landscapes/00003-1027569955-pagoda, neon,skyscrapers, storm, cyberpunk, flying cars, cables.png" > </div>
             <div class="col-6 left"><img src="images/landscapes/00003-107854873-pagoda, dome,neon,streets,skyscrapers, rain, cyberpunk,antennas,cables, food_stands, spot_lights.png" > </div>
@@ -66,34 +71,6 @@
     <footer>
         <p>html mostly by <em><span>Hadis Ghafouri:)</span></em></p>
     </footer>
-    <script>
-        var slidIndex = 1;
-        showSlides(slidIndex);
-
-        function plusSlides(n) {
-            showSlides(slidIndex += n);
-        }
-
-        function currentSlide(n) {
-            showSlides(slidIndex = n);
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n < 1)
-                slidIndex = slides.length;
-            if (n > slides.length)
-                slidIndex = 1;
-            for (i = 0; i < slides.length; i++)
-                slides[i].style.display = "none";
-            for (i = 0; i < dots.length; i++)
-                dots[i].className = dots[i].className.replace(" active", "");
-            slides[slidIndex - 1].style.display = "block";
-            dots[slidIndex - 1].className += " active";
-        }
-    </script>
 </body>
 
 </html>
