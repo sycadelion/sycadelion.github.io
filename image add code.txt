@@ -1,0 +1,1 @@
+for %i in (images/landscapes*.png) do echo ^<img src="%i" /^> >> all.html
