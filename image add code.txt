@@ -1,1 +1,1 @@
-for %i in (images/landscapes*.png) do echo ^<img src="%i" /^> >> all.html
+for %i in (*.png) do echo ^<div class="col-6 left"><img src="images/landscapes%i" /^></div> >> all.html
