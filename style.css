@@ -227,7 +227,7 @@ button {
 }
 
 button:hover {
-    background-color: gray;
+    background-color: black;
     color: black;
 }
 
