@@ -1,1 +1,5 @@
 for %i in (*.png) do echo ^<div class="col-6 left" title="%i"^>^<img src="images/waifus/lewd/%i"^>^</div^> >> all.html
+
+for %i in (*.png) do echo ^<div class="col-6 left" title="%i"^>^<img src="images/landscapes/%i"^>^</div^> >> all.html
+
+for %i in (*.png) do echo ^<div class="col-6 left" title="%i"^>^<img src="images/waifus/not lewd/%i"^>^</div^> >> all.html
